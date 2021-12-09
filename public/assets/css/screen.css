@@ -1,0 +1,162 @@
+
+@import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700';
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+}
+
+.svg-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+svg path {
+  transition: 0.1s;
+}
+svg:hover path {
+  d: path("M 800 300 Q 400 250 0 300 L 0 0 L 800 0 L 800 300 Z");
+}
+
+body {
+  background: #fff;
+  color: #333;
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 50px
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+header {
+  color: #fff;
+  padding-top: 10vw;
+  padding-bottom: 30vw;
+  text-align: center;
+}
+
+main {
+  background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10vh 0 80vh;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+main::after {
+  content: "";
+  position: absolute;
+  top: calc(10vh + 1.618em);
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+}
+
+footer {
+  background: #dddee1;
+  padding: 5vh 0;
+  text-align: center;
+  position: relative;
+}
+
+small {
+  opacity: 0.5;
+  font-weight: 300;
+}
+small a {
+  color: inherit;
+}
+
+
+
+
+
+/* forum */
+.form-style-4{
+	/* width: 450px; */
+	font-size: 16px;
+	background: #495C70;
+	padding: 30px 30px 15px 30px;
+	border: 5px solid #53687E;
+    display: inline-flex;
+    flex-direction: column;
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #fff;
+    text-align: left;
+
+}
+.form-style-4 label {
+	display:block;
+	margin-bottom: 10px;
+}
+.form-style-4 label > span{
+	display: inline-block;
+	float: left;
+	width: 150px;
+}
+.form-style-4 input[type=text]
+{
+	background: transparent;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 275px;
+	outline: none;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
+}
+
+
+.form-style-4 textarea:focus, 
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+	border-bottom: 1px dashed #4c6e21;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+	background: #576E86;
+	border: none;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+	color: #A8BACE;
+    margin-top: 10px;
+}
+
+.form-style-4 textarea{
+	font-style: italic;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 275px;
+	overflow: hidden;
+	resize:none;
+	height:20px;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+background: #394D61;
+}
