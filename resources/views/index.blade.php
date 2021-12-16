@@ -69,8 +69,8 @@
         </div>
 
         <label for="Comment">Comment:</label>
-        <input type="text" onkeyup="adjust_textarea(this)"  id="Comment" name="Comment">
-
+        <!-- <input type="text" id="Comment" name="Comment"> -->
+        <textarea id="Comment" name="Comment"></textarea>
         <input type="submit" value="Add">
 
     </form>
