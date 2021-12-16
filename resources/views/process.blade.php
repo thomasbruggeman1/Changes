@@ -2,7 +2,9 @@
 
 
 @section("main")
-    <div>
+<img src="media/Acerta.png" alt="Logo van Acerta." >
+<div class="container">
+        <div class="form">
         <h2>Thanks</h2>
         <p>You have submitted the forum</p>
 
@@ -20,8 +22,16 @@
         <li>Comment: {{ $roadmap-> Comment}}</li>
         <li>Date_added: {{ $roadmap-> Date_added}}</li>
     </ul>
-    <a href="{{ route('home') }}">fill in another form.</a>
-    </div>
+    <a href="{{ route('home') }}">Fill in another form.</a>
+        </div>
+        <div class="drops">
+                <div class="drop drop-1"></div>
+                <div class="drop drop-2"></div>
+                <div class="drop drop-3"></div>
+                <div class="drop drop-4"></div>
+                <div class="drop drop-5"></div>
+                <div class="drop drop-6"></div>
+        </div>
 
 
 @endsection("main")
