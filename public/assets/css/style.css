@@ -3,17 +3,22 @@ body{
     height: 100vh;
     overflow: hidden;
 }
-
-img{
-    width: 5%;
-    height: auto;
+footer{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    position: absolute;
 }
-
 .container{
     position: absolute;
     transform: translate(-50%,-50%);
     top: 52%;
     left: 50%;
+}
+
+img{
+    width: 5%;
+    height: auto;
 }
 
 form, .form{
@@ -79,12 +84,6 @@ input[type=text], input[type=date], input[type=number],textarea, select{
     border-radius: 4px;
 }
 
-textarea{
-    resize: vertical;
-    scroll-behavior: auto;
-}
-
-
 input[type=submit]{
     background-color: #00497a;
     color: white;
@@ -96,9 +95,20 @@ input[type=submit]{
     width: 20%;
 }
 
+textarea{
+    resize: vertical;
+    scroll-behavior: auto;
+}
+
 li{
     list-style-type: none;
     display:flex;
+}
+
+li span{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-right: 1rem;
 }
 
 a{
@@ -110,7 +120,7 @@ a:link{
     color: #00497a;
 }
 
-a:hover {
+a:hover{
     border-bottom: 1px solid;
     color: #4cb4e7;
 }
@@ -119,14 +129,14 @@ a:hover {
     margin-left: 3rem;
 }
 
-.date {
+.date{
     width: 78%;
     margin: auto;
     margin-left: 6.2rem;
     display: flex;
 }
 
-.drop {
+.drop{
     background: white;
     backdrop-filter: blur(10px);
     border-radius: 10px;
@@ -137,7 +147,7 @@ a:hover {
     transition: all 0.2s ease;
 }
 
-.drop-1 {
+.drop-1{
     height: 95px;
     width: 84px;
     top: -35px;
@@ -148,7 +158,7 @@ a:hover {
     border-top: 1px solid #e8308a;
 }
 
-.drop-2 {
+.drop-2{
     height: 80px;
     width: 80px;
     bottom: -30px;

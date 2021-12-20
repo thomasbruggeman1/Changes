@@ -14,36 +14,6 @@ class RoadmapController extends Controller
 
 
     function process(Request $request){
-       //$result = $this -> validate($request);
-       
-        // $budgetcode = $request -> input("Budgetcode");
-        // $domein = $request -> input("Domein");
-        // $epicnr = $request -> input("Epicnr");
-        // $projectname = $request -> input("Projectname");
-        // $budgetOwnerBusiness = $request -> input("Budget_owner_business");
-        // $budgetOwnerIct = $request -> input("Budget_owner_ict");
-        // $baselineBudget = $request -> input("Baseline_budget");
-        // $baselineFacturen = $request -> input("Baseline_facturen");
-        // $start = $request -> input("Start");
-        // $finish = $request -> input("Finish");
-
-        // $roadmap = new \App\Models\Roadmap();
-
-
-        // $roadmap -> Budgetcode = $budgetcode;
-        // $roadmap -> Domein = $domein;
-        // $roadmap -> Epicnr = $epicnr;
-        // $roadmap -> Projectname = $projectname;
-        // $roadmap -> Budget_owner_business = $budgetOwnerBusiness;
-        // $roadmap -> Budget_owner_ict = $budgetOwnerIct;
-        // $roadmap -> Baseline_budget = $baselineBudget;
-        // $roadmap -> Baseline_facturen = $baselineFacturen;
-        // $roadmap -> Start = $start;
-        // $roadmap -> Finish = $finish;
-
-        // $roadmap ->save();
-
-        // return view("process",["roadmap" => $roadmap]);
         $values = $this -> validateProject($request);
         $roadmap = new \App\Models\Roadmap();
 

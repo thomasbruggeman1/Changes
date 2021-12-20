@@ -7,20 +7,19 @@
         <div class="form">
         <h2>Thanks</h2>
         <p>You have submitted the forum</p>
-
         <ul>
-        <li>Budgetcode: {{ $roadmap-> Budgetcode}}</li>
-        <li>Domein: {{ $roadmap-> Domein}}</li>
-        <li>Epicnr: {{ $roadmap-> Epicnr}}</li>
-        <li>Projectname: {{ $roadmap-> Projectname}}</li>
-        <li>Budget_owner_business: {{ $roadmap-> Budget_owner_business}}</li>
-        <li>Budget_owner_ict: {{ $roadmap-> Budget_owner_ict}}</li>
-        <li>Baseline_budget: {{ $roadmap-> Baseline_budget}}</li>
-        <li>Baseline_facturen: {{ $roadmap-> Baseline_facturen}}</li>
-        <li>Start: {{ $roadmap-> Start}}</li>
-        <li>Finish: {{ $roadmap-> Finish}}</li>
-        <li>Comment: {{ $roadmap-> Comment}}</li>
-        <li>Date_added: {{ $roadmap-> Date_added}}</li>
+        <li><span>Budgetcode:</span> {{ $roadmap-> Budgetcode}}</li>
+        <li><span>Domein:</span> {{ $roadmap-> Domein}}</li>
+        <li><span>Epicnr:</span> {{ $roadmap-> Epicnr}}</li>
+        <li><span>Projectname:</span> {{ $roadmap-> Projectname}}</li>
+        <li><span>Budget_owner_business:</span> {{ $roadmap-> Budget_owner_business}}</li>
+        <li><span>Budget_owner_ict:</span> {{ $roadmap-> Budget_owner_ict}}</li>
+        <li><span>Baseline_budget:</span> {{ $roadmap-> Baseline_budget}}</li>
+        <li><span>Baseline_facturen:</span> {{ $roadmap-> Baseline_facturen}}</li>
+        <li><span>Start:</span> {{ $roadmap-> Start}}</li>
+        <li><span>Finish:</span> {{ $roadmap-> Finish}}</li>
+        <li><span>Comment:</span> {{ $roadmap-> Comment}}</li>
+        <li><span>Date_added:</span> {{ $roadmap-> Date_added}}</li>
     </ul>
     <a href="{{ route('home') }}">Fill in another form.</a>
         </div>
