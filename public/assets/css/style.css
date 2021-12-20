@@ -4,10 +4,11 @@ body{
     overflow: hidden;
 }
 footer{
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    width: 100%;
     bottom: 0;
     position: absolute;
+    padding-bottom: 1rem;
 }
 .container{
     position: absolute;
