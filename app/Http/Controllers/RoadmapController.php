@@ -40,7 +40,7 @@ class RoadmapController extends Controller
     }
     function validateProject(Request $request){
         $rules = [
-        "Budgetcode" => "string|required|max:50",
+        "Budgetcode" => "string|unique:roadmaps|required|max:50",
         "Domein" => "string|required|max:50",
         "Epicnr" => "string|required|max:50",
         "Projectname" => "string|required|max:50",
