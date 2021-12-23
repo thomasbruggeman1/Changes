@@ -40,17 +40,17 @@ class RoadmapController extends Controller
     }
     function validateProject(Request $request){
         $rules = [
-        "Budgetcode" => "string|unique:roadmaps|required|max:50",
+        "Budgetcode" => "string|required|max:50",
         "Domein" => "string|required|max:50",
-        "Epicnr" => "string|required|max:50",
+        "Epicnr" => "string|unique:roadmaps|required|max:50",
         "Projectname" => "string|required|max:50",
         "Budget_owner_business" => "string|required|max:50",
         "Budget_owner_ict" => "string|required|max:50",
         "Baseline_budget" => "integer|required|gt:0",
-        "Baseline_facturen" => "string|required|gt:0",
-        "Start" => "date|required|after_or_equal:today",
+        "Baseline_facturen" => "nullable|string|gt:0",
+        "Start" => "date|required",
         "Finish" => "date|required|after_or_equal:Start",
-        "Comment" => "string|max:500"
+        "Comment" => "nullable|string|max:500"
 
     ];
     return $request -> validate($rules);
