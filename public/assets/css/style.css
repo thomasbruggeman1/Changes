@@ -3,6 +3,11 @@ body{
     height: 100vh;
     overflow: hidden;
 }
+
+#errors{
+    color: red;
+}
+
 footer{
     text-align: center;
     width: 100%;

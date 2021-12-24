@@ -38,16 +38,16 @@
         Projectname:
         </label><input type="text" id="Projectname" name="Projectname">
         <label for="Budget_owner_business">
-        Budget_owner_business:
+        Budget owner business:
         </label><input type="text" id="Budget_owner_business" name="Budget_owner_business">
         <label for="Budget_owner_ict">
-        Budget_owner_ict:      
+        Budget owner ict:      
         </label><input type="text" id="Budget_owner_ict" name="Budget_owner_ict">
         <label for="Baseline_budget">
-        Baseline_budget:
+        Baseline budget:
         </label><input type="number" id="Baseline_budget" name="Baseline_budget">
         <label for="Baseline_facturen">
-        Baseline_facturen:
+        Baseline facturen:
         </label><input type="number" id="Baseline_facturen" name="Baseline_facturen">
 
     

@@ -12,14 +12,14 @@
         <li><span>Domein:</span> {{ $roadmap-> Domein}}</li>
         <li><span>Epicnr:</span> {{ $roadmap-> Epicnr}}</li>
         <li><span>Projectname:</span> {{ $roadmap-> Projectname}}</li>
-        <li><span>Budget_owner_business:</span> {{ $roadmap-> Budget_owner_business}}</li>
-        <li><span>Budget_owner_ict:</span> {{ $roadmap-> Budget_owner_ict}}</li>
-        <li><span>Baseline_budget:</span> {{ $roadmap-> Baseline_budget}}</li>
-        <li><span>Baseline_facturen:</span> {{ $roadmap-> Baseline_facturen}}</li>
+        <li><span>Budget owner business:</span> {{ $roadmap-> Budget_owner_business}}</li>
+        <li><span>Budget owner ict:</span> {{ $roadmap-> Budget_owner_ict}}</li>
+        <li><span>Baseline budget:</span> {{ $roadmap-> Baseline_budget}}</li>
+        <li><span>Baseline facturen:</span> {{ $roadmap-> Baseline_facturen}}</li>
         <li><span>Start:</span> {{ $roadmap-> Start}}</li>
         <li><span>Finish:</span> {{ $roadmap-> Finish}}</li>
         <li><span>Comment:</span> {{ $roadmap-> Comment}}</li>
-        <li><span>Date_added:</span> {{ $roadmap-> Date_added}}</li>
+        <li><span>Date added:</span> {{ $roadmap-> Date_added}}</li>
     </ul>
     <a href="{{ route('home') }}">Fill in another form.</a>
         </div>
